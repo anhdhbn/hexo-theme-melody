@@ -1,10 +1,10 @@
 sidebar:
-  articles: Articles
-  tags: Tags
-  categories: Categories
+  articles: Bài viết
+  tags: Thẻ
+  categories: Thể loại
   toggle_site: Toggle site
   toggle_article: Toggle article
-  catalog: Catalog
+  catalog: Mục lục
   have_read: Bạn đã đọc
 
 footer:
@@ -17,20 +17,20 @@ copy:
   noSupport: Trình duyệt không được hỗ trợ
 
 page:
-  articles: Articles
+  articles: Bài viết
   tag: Tag
-  category: Category
-  archives: Archives
+  category: Thể loại
+  archives: Lưu trữ
 
 sticky: Sticky
 no_title: Không có tiêu đề
 read_more: Đọc thêm
 
 post:
-  created: created
-  updated: updated
+  created: đã tạo
+  updated: đã cập nhật
   wordcount: Số lượng từ
-  min2read: 'Thời gian đọc: %s phút'
+  min2read: 'Thời gian đọc khoảng: %s phút'
   copyright:
     author: Author
     link: Link
@@ -40,12 +40,12 @@ post:
 
 search: Tìm kiếm
 algolia_search:
-  input_placeholder: Search for Posts
+  input_placeholder: Tìm kiếm bài viết
   hits_empty: "Chúng tôi không tìm thấy bất kỳ kết quả nào cho tìm kiếm này: ${query}."
   hits_stats: "${hits} kết quả tìm thấy trong ${time} ms"
 
 local_search:
   label: Local search
-  input_placeholder: Search for Posts
+  input_placeholder: Tìm kiếm bài viết
   hits_empty: "Chúng tôi không tìm thấy bất kỳ kết quả nào cho tìm kiếm này: ${query}"
   powered_by: Cung cấp bởi 
