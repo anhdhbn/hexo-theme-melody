@@ -1,7 +1,7 @@
 sidebar:
   articles: Bài viết
-  tags: Thẻ
-  categories: Thể loại
+  tags: "Các thẻ"
+  categories: "Các thể loại"
   toggle_site: Toggle site
   toggle_article: Toggle article
   catalog: Mục lục
@@ -17,8 +17,8 @@ copy:
   noSupport: Trình duyệt không được hỗ trợ
 
 page:
-  articles: Bài viết
-  tag: Tag
+  articles: "Các bài viết"
+  tag: Thẻ
   category: Thể loại
   archives: Lưu trữ
 
@@ -45,7 +45,7 @@ algolia_search:
   hits_stats: "${hits} kết quả tìm thấy trong ${time} ms"
 
 local_search:
-  label: Local search
+  label: "Tìm trong trang"
   input_placeholder: Tìm kiếm bài viết
   hits_empty: "Chúng tôi không tìm thấy bất kỳ kết quả nào cho tìm kiếm này: ${query}"
-  powered_by: Cung cấp bởi 
+  powered_by: Cung cấp bởi
