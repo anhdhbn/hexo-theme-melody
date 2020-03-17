@@ -1,51 +1,51 @@
 sidebar:
-    articles: Articles
-    tags: Tags
-    categories: Categories
-    toggle_site: Toggle site
-    toggle_article: Toggle article
-    catalog: Catalog
-    have_read: Bạn đã đọc
-  
-  footer:
-    driven: Driven
-    theme: Chủ đề
-  
-  copy:
-    success: Sao chép thành công
-    error: Sao chép lỗi
-    noSupport: Trình duyệt không được hỗ trợ
-  
-  page:
-    articles: Articles
-    tag: Tag
-    category: Category
-    archives: Archives
-  
-  sticky: Sticky
-  no_title: Không có tiêu đề
-  read_more: Đọc thêm
-  
-  post:
-    created: created
-    updated: updated
-    wordcount: Số lượng từ
-    min2read: 'Thời gian đọc: %s phút'
-    copyright:
-      author: Author
-      link: Link
-      copyright_notice: Copyright Notice
-      copyright_content: 'All articles in this blog are licensed under <a href="%s">%s</a> unless stating additionally.'
-  
-  
-  search: Tìm kiếm
-  algolia_search:
-    input_placeholder: Search for Posts
-    hits_empty: "Chúng tôi không tìm thấy bất kỳ kết quả nào cho tìm kiếm này: ${query}."
-    hits_stats: "${hits} kết quả tìm thấy trong ${time} ms"
-  
-  local_search:
-    label: Local search
-    input_placeholder: Search for Posts
-    hits_empty: "Chúng tôi không tìm thấy bất kỳ kết quả nào cho tìm kiếm này: ${query}"
-    powered_by: Cung cấp bởi 
+  articles: Articles
+  tags: Tags
+  categories: Categories
+  toggle_site: Toggle site
+  toggle_article: Toggle article
+  catalog: Catalog
+  have_read: Bạn đã đọc
+
+footer:
+  driven: Driven
+  theme: Chủ đề
+
+copy:
+  success: Sao chép thành công
+  error: Sao chép lỗi
+  noSupport: Trình duyệt không được hỗ trợ
+
+page:
+  articles: Articles
+  tag: Tag
+  category: Category
+  archives: Archives
+
+sticky: Sticky
+no_title: Không có tiêu đề
+read_more: Đọc thêm
+
+post:
+  created: created
+  updated: updated
+  wordcount: Số lượng từ
+  min2read: 'Thời gian đọc: %s phút'
+  copyright:
+    author: Author
+    link: Link
+    copyright_notice: Copyright Notice
+    copyright_content: 'All articles in this blog are licensed under <a href="%s">%s</a> unless stating additionally.'
+
+
+search: Tìm kiếm
+algolia_search:
+  input_placeholder: Search for Posts
+  hits_empty: "Chúng tôi không tìm thấy bất kỳ kết quả nào cho tìm kiếm này: ${query}."
+  hits_stats: "${hits} kết quả tìm thấy trong ${time} ms"
+
+local_search:
+  label: Local search
+  input_placeholder: Search for Posts
+  hits_empty: "Chúng tôi không tìm thấy bất kỳ kết quả nào cho tìm kiếm này: ${query}"
+  powered_by: Cung cấp bởi 
