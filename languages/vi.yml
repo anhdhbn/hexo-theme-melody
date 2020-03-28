@@ -1,7 +1,7 @@
 sidebar:
-  articles: Bài viết
-  tags: "Các thẻ"
-  categories: "Các thể loại"
+  articles: Articles
+  tags: Tags
+  categories: Categories
   toggle_site: Toggle site
   toggle_article: Toggle article
   catalog: Mục lục
@@ -9,7 +9,7 @@ sidebar:
 
 footer:
   driven: Driven
-  theme: Chủ đề
+  theme: Theme
 
 copy:
   success: Sao chép thành công
@@ -17,10 +17,10 @@ copy:
   noSupport: Trình duyệt không được hỗ trợ
 
 page:
-  articles: "Các bài viết"
-  tag: Thẻ
-  category: Thể loại
-  archives: Lưu trữ
+  articles: Articles
+  tag: Tag
+  category: Category
+  archives: Archives
 
 sticky: Sticky
 no_title: Không có tiêu đề
