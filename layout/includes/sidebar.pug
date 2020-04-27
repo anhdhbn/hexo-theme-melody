@@ -35,7 +35,10 @@
         span.progress-num 0
         span.progress-percentage %
         div.sidebar-toc__progress-bar
-      div.sidebar-toc__content!=toc(page.content, {list_number: tocNumber})
+      if (page.encrypt && page.showtoc)
+        div.sidebar-toc__content!=toc(page.origin, {list_number: tocNumber})
+      else
+        div.sidebar-toc__content!=toc(page.content, {list_number: tocNumber})
   .author-info(class= showToc ? 'hide' : undefined)
     .author-info__avatar.text-center
       img(src=theme.avatar || url_for('/img/avatar.png'))
