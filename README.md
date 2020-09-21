@@ -24,7 +24,6 @@ See demo:
 - [Elody's Blog](https://elody-07.github.io)
 - [zouyaoji's Blog](https://zouyaoji.top/)
 - [flytreeleft's Blog](https://flytreeleft.org/)
-- [Crystalwindz's Blog](https://crystalwindz.com/)
 - [霪霖笙箫的博客](https://fridolph.github.io/)
 - [upupming 的博客](https://upupming.site/)
 - [HibisciDai's blog](https://hibiscidai.com/)
@@ -71,7 +70,12 @@ See [releases](https://github.com/Molunerfinn/hexo-theme-melody/releases).
 
 # Installation
 
+**Notice: The installation method before and after hexo 5.0 version is different.**
+
+## Hexo version < 5.0
+
 Find your hexo work folder
+
 
 ```bash
 git clone -b master https://github.com/Molunerfinn/hexo-theme-melody themes/melody
@@ -80,18 +84,59 @@ git clone -b master https://github.com/Molunerfinn/hexo-theme-melody themes/melo
 If you don't have jade & stylus renderer, follow this:
 
 ```bash
-npm install hexo-renderer-jade hexo-renderer-stylus
+npm install hexo-renderer-pug hexo-renderer-stylus
 ```
 
+In your hexo site's `_config.yml`, find the `theme` field, change it to `melody`:
+
+```yaml
+theme: melody
+```
+
+## Hexo version >= 5.0
+
+```
+npm install hexo-theme-melody
+```
+
+If you don't have jade & stylus renderer, follow this:
+
+```bash
+npm install hexo-renderer-pug hexo-renderer-stylus
+```
+
+In your hexo site's `_config.yml`, find the `theme` field, change it to `melody`:
+
+
 # Configuration
+
+**Notice: The configuration file before and after hexo 5.0 version is different.**
+
+## Hexo version < 5.0
 
 For smoothly updating theme-melody, I recommand to create a config file named `melody.yml` in your hexo work folder's (**Notice: not the theme-melody folder**) `source/_data` folder(If it doesn't exist, create one)
 
 Copy the contents of `_config.yml` to `melody.yml`. Now you can configure it by yourself and you can update theme-melody smoothly.
 
+## Hexo version >= 5.0
+
+1. create a `_config.melody.yml` in your hexo work folder.
+2. copy the contents of `./node_modules/hexo-theme-melody/_config.yml` to `_config.melody.yml`
+3. If you have used `hexo-theme-melody` for a long time, and has a `melody.yml` above, please copy the contents of `melody.yml` to `_config.melody.yml` & remove `melody.yml` since it will be deprecated.
+
+Now you can configure it by yourself and you can update theme-melody smoothly.
+
 # Update
 
+**Notice: The update method before and after hexo 5.0 version is different.**
+
+## Hexo version < 5.0
+
 Jump into the melody folder, just `git pull` is OK.
+
+## Hexo version >= 5.0
+
+In your hexo work folder, just `npm update hexo-theme-melody` is OK.
 
 > For more details, please check [documentation](https://molunerfinn.com/hexo-theme-melody-doc/)
 
